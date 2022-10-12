@@ -29,71 +29,81 @@ double *Array(int size)
 }
 double Minimum(double* arr, int size)
 {
-	//int size1 = sizeArray();
-	double min = arr[0];
-	int kol = 0;
-	int kolmin = 0, pozicii = 0;
 	for (int i = 0; i < size; i++)
 	{
-		if (min > arr[i])
+		if (arr[i] == arr[i+1])
 		{
-			min = arr[i];
-			pozicii++;
+			cout << "Vse yavlayests min" << endl;
+			
 		}
-	}
-	for (int i = 0; i < pozicii; i++)
-	{
-		kol++;
-	}
-	for (int i = 0; i < size; i++)
-	{
-		if (min == min)
+		else
 		{
-			kolmin++;
-		}
-	}
-	cout << " MInimeum = " << min << endl;
-	cout<< " KOl = " << kolmin << endl;
-	cout << " Poziciya =  " << kol << endl;
-	return min;
-}
-double Summa(double* arr, int size)
-{
-	double summa = 0;
-	int onepozitoin = 0, secondpozition = 0, perviyindex=0,vtoroyindex=0;
-	while (true)
-	{
-		for (int i = 0; i < size; i++)
-		{
-			if (arr[i]>0)
+			double min = arr[0];
+			int kol = 0;
+			int kolmin = 0, pozicii = 0;
+			for (int i = 0; i < size; i++)
 			{
-				onepozitoin = arr[i];
-				perviyindex++;
-				break;
+				if (min > arr[i])
+				{
+					min = arr[i];
+					pozicii++;
+				}
 			}
-		}
-		for (int i = 0; i < size; i++)
-		{
-			if (arr[i] > 0 )
+			for (int i = 0; i < pozicii; i++)
 			{
-				secondpozition = arr[i];
-				vtoroyindex++;
+				kol++;
 			}
+			for (int i = 0; i < size; i++)
+			{
+				if (min == min)
+				{
+					kolmin++;
+				}
+			}
+			cout << " MInimeum = " << min << endl;
+			cout << " KOl = " << kolmin << endl;
+			cout << " Poziciya =  " << kol << endl;
+			return min;
 		}
-		for   (int i=perviyindex;i < vtoroyindex-1; i++)
-		{		
-			cout << summa << endl;
-				summa +=  arr[i];	
-				
-		}
-		break;
+
+		
 	}
-	cout << "pervaya = " << onepozitoin<<endl;
-	cout << "second = " << secondpozition << endl;
-	cout << "Summa = " << summa << endl;
-	return summa;
-}
-void Sort(double* arr, int size)
-{
+	
 	
 }
+//double Summa(double* arr, int size)
+//{
+//	double summa = 0;
+//	int onepozitoin = 0, secondpozition = 0, perviyindex=0,vtoroyindex=0;
+//	while (true)
+//	{
+//		for (int i = 0; i < size; i++)
+//		{
+//			if (arr[i]>0)
+//			{
+//				onepozitoin = arr[i];
+//				perviyindex++;
+//				break;
+//			}
+//		}
+//		for (int i = 0; i < size; i++)
+//		{
+//			if (arr[i] > 0 )
+//			{
+//				secondpozition = arr[i];
+//				vtoroyindex++;
+//			}
+//		}
+//		for   (int i=perviyindex;i < vtoroyindex-1; i++)
+//		{		
+//			cout << summa << endl;
+//				summa +=  arr[i];	
+//				
+//		}
+//		break;
+//	}
+//	cout << "pervaya = " << onepozitoin<<endl;
+//	cout << "second = " << secondpozition << endl;
+//	cout << "Summa = " << summa << endl;
+//	return summa;
+//}

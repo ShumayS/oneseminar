@@ -32,5 +32,8 @@
     <ClCompile Include="CreateMassive.cpp">
       <Filter>Исходные файлы\First_seminar</Filter>
     </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
