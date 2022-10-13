@@ -131,9 +131,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CreateSecondMassive.cpp" />
     <ClCompile Include="Menumain.cpp" />
     <ClCompile Include="Menutask.cpp" />
     <ClCompile Include="CreateMassive.cpp" />
+    <ClCompile Include="secondMenuTask.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>

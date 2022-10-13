@@ -18,11 +18,11 @@ int main()
 		switch (select_nomer)
 		{
 		case '1':
-			Firstseminar();
+			Firstseminar();//Вызов первого семинара
 			cout<<"1" << endl;
 			break;
 		case '2':
-			//Вызов второго семинара
+			secondSeminar();//Вызов второго семинара
 			cout << "2" << endl;
 			break;
 		case '3':
