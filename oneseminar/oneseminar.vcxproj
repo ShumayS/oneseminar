@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,9 +127,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <ClCompile Include="Menumain.cpp" />
     <ClCompile Include="Menutask.cpp" />
     <ClCompile Include="CreateMassive.cpp" />
+=======
+    <ClCompile Include="CreateMat.cpp" />
+    <ClCompile Include="CreateSecondMassive.cpp" />
+    <ClCompile Include="Dispaysort.cpp" />
+    <ClCompile Include="EnterSize.cpp" />
+    <ClCompile Include="Eror.cpp" />
+    <ClCompile Include="Menumain.cpp" />
+    <ClCompile Include="Menutask.cpp" />
+    <ClCompile Include="CreateMassive.cpp" />
+    <ClCompile Include="Minimum.cpp" />
+    <ClCompile Include="Sear.cpp" />
+    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="secondMenuTask.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="DisplayMassiv.cpp" />
+    <ClCompile Include="Summa.cpp" />
+    <ClCompile Include="Text.cpp" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First_seminar.h" />

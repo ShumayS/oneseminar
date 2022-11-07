@@ -16,6 +16,12 @@
     <Filter Include="Исходные файлы\First_seminar">
       <UniqueIdentifier>{8763ea2c-2ee6-4fdb-8ec4-a89aa1d409b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Second_seminar">
+      <UniqueIdentifier>{bf9f7ca1-49ae-466a-a6e2-e0c8f65fc5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Third_seminar">
+      <UniqueIdentifier>{bba6e685-17fd-4503-b452-27f332bf3ebe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First_seminar.h">
@@ -26,11 +32,53 @@
     <ClCompile Include="Menutask.cpp">
       <Filter>Исходные файлы\First_seminar</Filter>
     </ClCompile>
-    <ClCompile Include="Menumain.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="CreateMassive.cpp">
       <Filter>Исходные файлы\First_seminar</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="Sort.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="secondMenuTask.cpp">
+      <Filter>Исходные файлы\Second_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateSecondMassive.cpp">
+      <Filter>Исходные файлы\Second_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Исходные файлы\Second_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimum.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Eror.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Summa.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMat.cpp">
+      <Filter>Исходные файлы\Second_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Sear.cpp">
+      <Filter>Исходные файлы\Second_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Исходные файлы\Third_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Menumain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterSize.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayMassiv.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispaysort.cpp">
+      <Filter>Исходные файлы\First_seminar</Filter>
+    </ClCompile>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

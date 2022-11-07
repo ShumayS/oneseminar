@@ -5,18 +5,23 @@ using namespace std;
 
 int main()
 {
-	char select_nomer;
-	int f=1;
-	cout << "Select seminar" << endl;
-	cout << "First seminar - 1 " << endl;
-	cout << "Second seminar - 2 " << endl;
-	cout << "Thrid seminar - 3 " << endl;
-	
-	while (f != 0)
+	int select_nomer;
+
+	/*cout << "Select seminar" << endl;
+	cout << "\nFirst seminar - 1 " << endl;
+	cout << "\nSecond seminar - 2 " << endl;
+	cout << "\nThrid seminar - 3 " << endl;*/
+	cout << " Select seminar" << endl;
+	while (true)
 	{
+		cout << "\n First seminar - 1 " << endl;
+		cout << "\n Second seminar - 2 " << endl;
+		cout << "\n Thrid seminar - 3 " << endl;
+		cout << "\n Exit - 0" << endl;
 		cin >> select_nomer;
 		switch (select_nomer)
 		{
+<<<<<<< Updated upstream
 		case '1':
 			Firstseminar();
 			cout<<"1" << endl;
@@ -24,18 +29,31 @@ int main()
 		case '2':
 			//Вызов второго семинара
 			cout << "2" << endl;
+=======
+		
+		case 1:
+		system("cls");
+		Firstseminar();//Вызов первого семинара		
+		break;
+		case 2:
+			system("cls");
+			secondSeminar();//Вызов второго семинара
+>>>>>>> Stashed changes
 			break;
-		case '3':
-			//Вызов третьего семинара
-			cout << "3" << endl;
+		case 3:
+			system("cls");
+			seminar3();//Вызов третьего семинара
 			break;
-		case '4':
-			f = 0;
+		case 0:
+			system("cls");
+			cout << "Thank you<3" << endl;
+			exit(0);
 			break;
 		default:
-			cout << "Viberi nomer" << endl;
-		}
-		
+			cout << "Select seminar" << endl;
+			break;
+		}	
 	}
+		
 }
 
